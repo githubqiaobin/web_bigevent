@@ -1,5 +1,9 @@
 //入口函数，页面加载完成后调用
 $(function() {
+
+
+
+
     // 点击注册链接，隐藏登录窗口，显示注册窗口
     $("#link_reg").on("click", function() {
             $(".login-box").hide();

@@ -1,0 +1,78 @@
+.layui-footer {
+    /* 居中对齐 */
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/* 字体图标默认挨得太近 */
+
+.iconfont {
+    margin-right: 8px;
+}
+
+.layui-icon {
+    margin-right: 8px;
+    margin-left: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 可以隐藏右侧的双滚动条 */
+
+.layui-body {
+    overflow: hidden;
+}
+
+
+/* 强制清除动画 */
+
+a {
+    transition: none !important;
+}
+
+
+/* 设置头像 */
+
+.userinfo {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+    /* 不希望被选中设置技巧 */
+    user-select: none;
+}
+
+.layui-side-scroll .userinfo {
+    border-bottom: 1px solid rgb(40, 43, 51);
+}
+
+.layui-nav-img {
+    width: 40px;
+    height: 40px;
+}
+
+
+/* 自定义字体头像 */
+
+.text-avatar {
+    /*  必须设置，不然无法设置宽和高 */
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 150, 136);
+    /* 圆形 */
+    border-radius: 50%;
+    /* 绝对定位不占有位置，相对定位占有位置 */
+    position: relative;
+    top: 3px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+}
